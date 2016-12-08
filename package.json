@@ -1,0 +1,89 @@
+{
+    "author": "WA1OUI",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "girl-scout",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Girl Scouts",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "DATE_FORMAT_KEY",
+            "BT_VIBRATE_KEY",
+            "LOW_BATTERY_KEY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Girl_Scout_menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Girl Scout Logo_BW.png",
+                    "name": "IMAGE_GIRL_SCOUT_LOGO_BW",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Girl Scout Logo.png",
+                    "name": "IMAGE_GIRL_SCOUT_LOGO",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Roboto-Condensed.ttf",
+                    "name": "FONT_ROBOTO_CONDENSED_21",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Condensed.ttf",
+                    "name": "FONT_ROBOTO_CONDENSED_25",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_40",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/HelveNeuLig.ttf",
+                    "name": "FONT_HELV_NEW_LIGHT_20",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "4df98a0b-7522-4913-b5c3-cc1a7cf9a95d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.2.0"
+}
